@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Demo" parallel="tests" thread-count="2">
+  
+  <parameter name="browser" value="chrome" />
+  <test name="OpenApplicationInChrome">
+    <classes>
+      <class name="demoTestNG.openGoogle"/>
+      <class name="demoTestNG.openYahoo"/>
+      <class name="demoTestNG.openFB"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <parameter name="browser" value="FF" />
+  <test name="OpenApplicationInFF">
+    <classes>
+      <class name="demoTestNG.openGoogle"/>
+      <class name="demoTestNG.openYahoo"/>
+      <class name="demoTestNG.openFB"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

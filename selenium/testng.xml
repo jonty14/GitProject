@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test name="facebook">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testNg.LoginToFB"/>
+    </classes>
+  </test> <!-- facebook -->
+  <test name="facebook1">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testNg.LoginToFB"/>
+    </classes>
+  </test> <!-- facebook1 -->
+</suite> <!-- Suite -->

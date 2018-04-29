@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="73" started-at="2018-04-28T07:56:06Z" finished-at="2018-04-28T07:56:06Z">
+    <groups>
+    </groups>
+    <test name="Login Facebook and Search Kolkata" duration-ms="73" started-at="2018-04-28T07:56:06Z" finished-at="2018-04-28T07:56:06Z">
+      <class name="testNg.LoginToFB">
+        <test-method status="FAIL" signature="launchBrowser(java.lang.String)[pri:0, instance:testNg.LoginToFB@3c756e4d]" name="launchBrowser" is-config="true" duration-ms="0" started-at="2018-04-28T13:26:06Z" finished-at="2018-04-28T13:26:06Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\abc\Desktop\Selenium\selenium\src\facebooklogin.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\abc\Desktop\Selenium\selenium\src\facebooklogin.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:197)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="SKIP" signature="loginFB()[pri:0, instance:testNg.LoginToFB@3c756e4d]" name="loginFB" duration-ms="12" started-at="2018-04-28T13:26:06Z" finished-at="2018-04-28T13:26:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFB -->
+      </class> <!-- testNg.LoginToFB -->
+    </test> <!-- Login Facebook and Search Kolkata -->
+  </suite> <!-- Suite -->
+</testng-results>

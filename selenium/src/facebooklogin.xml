@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Login Facebook and Search Kolkata">
+    <classes>
+      <class name="testNg.LoginToFB"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

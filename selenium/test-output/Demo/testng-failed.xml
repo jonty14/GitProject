@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Demo]" parallel="tests">
+  <parameter name="browser" value="FF"/>
+  <test name="OpenApplicationInChrome(failed)" parallel="tests">
+    <classes>
+      <class name="demoTestNG.openFB">
+        <methods>
+          <include name="FB"/>
+        </methods>
+      </class> <!-- demoTestNG.openFB -->
+    </classes>
+  </test> <!-- OpenApplicationInChrome(failed) -->
+  <test name="OpenApplicationInFF(failed)" parallel="tests">
+    <classes>
+      <class name="demoTestNG.openFB">
+        <methods>
+          <include name="FB"/>
+        </methods>
+      </class> <!-- demoTestNG.openFB -->
+    </classes>
+  </test> <!-- OpenApplicationInFF(failed) -->
+</suite> <!-- Failed suite [Demo] -->
